@@ -1,0 +1,46 @@
+/* Стиль 1й таблицы */
+.table1 {
+    width: 75%;
+    border: 1px solid #000000;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+td {
+    width: 33,33%;
+    border: 1px solid #000000;
+    height: 50px;
+    padding: 7px;
+    text-align: center;
+    vertical-align: top;
+}
+.colspan {
+    height: 200px;
+}
+
+/* Стиль 2й Таблицы */
+
+.table2-parrent {
+    width: 90%;
+    border: 1px solid #000000;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.cell-3 {
+    width: 60%;
+}
+.cell-4 {
+    width: 28%;
+}
+.cell-7 {
+    height: 50px;
+}
+
+.table2-child {
+    width: 80%;
+    border: 1px solid #000000;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
